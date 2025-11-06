@@ -50,11 +50,12 @@ namespace KolesnikovTest
 
             Console.WriteLine("6. Тест SetChiefLibrarian():");
             bool success1 = library.SetChiefLibrarian("Петров П.С.");
-            Console.WriteLine($"Попытка назначить Петрова П.С.: {(success1 ? "УСПЕХ" : "НЕУДАЧА")}");
+            Console.WriteLine($"Назначить Петрова П.С.: {(success1 ? "УСПЕХ" : "НЕУДАЧА")}");
             Console.WriteLine($"Текущий главный библиотекарь: {library.GetChiefLibrarian()}");
             Console.WriteLine();
 
             Console.ReadLine();
         }
     }
+
 }
